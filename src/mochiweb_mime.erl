@@ -270,7 +270,11 @@ from_extension(".vrml") ->
     "model/vrml";
 from_extension(".wrl") ->
     "model/vrml";
+from_extension(".coffee") ->
+    "text/coffeescript";
 from_extension(".css") ->
+    "text/css";
+from_extension(".less") ->
     "text/css";
 from_extension(".htm") ->
     "text/html";
